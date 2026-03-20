@@ -1,0 +1,5 @@
+venv/
+data/raw/
+__pycache__/
+.ipynb_checkpoints/
+config/api_keys.json
