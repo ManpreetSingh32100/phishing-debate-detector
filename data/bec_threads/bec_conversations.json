@@ -1,0 +1,686 @@
+[
+  {
+    "thread_id": "bec_001",
+    "pattern": "foot_in_door",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "james.wilson.ceo@company-corp.com",
+        "to": "manpreet@company.com",
+        "subject": "Quick question",
+        "body": "Hey Manpreet, are you at your desk? I need a quick favor when you get a chance. Let me know.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "james.wilson.ceo@company-corp.com",
+        "to": "manpreet@company.com",
+        "subject": "Re: Quick question",
+        "body": "Great thanks. I need you to purchase 5 Google Play gift cards at $200 each for a client appreciation event. Can you do this today and send me the codes? I will reimburse you. Please keep this between us for now.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_002",
+    "pattern": "foot_in_door",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "sarah.chen@execmail.com",
+        "to": "accounting@company.com",
+        "subject": "Are you available?",
+        "body": "Hi, are you free right now? I need something handled quickly before end of day.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "sarah.chen@execmail.com",
+        "to": "accounting@company.com",
+        "subject": "Re: Are you available?",
+        "body": "Perfect. I need you to buy 3 Amazon gift cards worth $500 each. Scratch the back and send photos of the codes to this email. This is for a surprise employee recognition so do not mention it to anyone.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_003",
+    "pattern": "foot_in_door",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "david.park@corp-hq.com",
+        "to": "reception@company.com",
+        "subject": "Checking in",
+        "body": "Hello, just checking if the office is open today. I have a small request.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "david.park@corp-hq.com",
+        "to": "reception@company.com",
+        "subject": "Re: Checking in",
+        "body": "Thanks for confirming. I am stuck in a meeting and cannot step out. Could you run to the store and get 4 iTunes gift cards at $100 each? I will pay you back this afternoon. Send me photos of the cards once you have them.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_004",
+    "pattern": "wire_transfer",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "cfo@globalpartners-inc.com",
+        "to": "finance@company.com",
+        "subject": "Upcoming payment",
+        "body": "Hi team, we have a vendor payment coming up next week. I want to make sure everything is in order. Can you confirm our current payment process?",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "cfo@globalpartners-inc.com",
+        "to": "finance@company.com",
+        "subject": "Re: Upcoming payment",
+        "body": "Thanks for the info. Actually, our vendor has changed their banking details. Please update the wire transfer to: Account 4482991037, Routing 071000013, First National Bank. Process the $47,500 payment today. This is time-sensitive and already approved by the board.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_005",
+    "pattern": "wire_transfer",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "ap.department@supplier-co.net",
+        "to": "accounts@company.com",
+        "subject": "Invoice #INV-20260301",
+        "body": "Dear Accounts Payable, Please find attached our invoice for services rendered in February. The total amount is $23,800. Standard NET-30 terms apply. Let us know if you have questions.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "ap.department@supplier-co.net",
+        "to": "accounts@company.com",
+        "subject": "URGENT: Updated banking for Invoice #INV-20260301",
+        "body": "Important update - our company has switched banks effective immediately. Please update your records and send the $23,800 payment to: Wells Fargo, Account 7819304562, Routing 121000248. Please process today to avoid late fees. Our old account has been closed.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_006",
+    "pattern": "wire_transfer",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "margaret.liu@boardmember.org",
+        "to": "treasurer@company.com",
+        "subject": "Confidential acquisition",
+        "body": "Hello, I need to discuss something confidential with you regarding a potential acquisition. Are you available for a quick call this afternoon?",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "margaret.liu@boardmember.org",
+        "to": "treasurer@company.com",
+        "subject": "Re: Confidential acquisition",
+        "body": "I could not reach you by phone. We need to move fast on this. Please wire $125,000 to the escrow account for the acquisition deposit. Account details: JPMorgan Chase, Account 3349201877, Routing 021000021. This is strictly confidential and must be completed by 3pm today. Do not discuss with other staff.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_007",
+    "pattern": "credential_harvest",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "it.helpdesk@company-it.com",
+        "to": "employees@company.com",
+        "subject": "System maintenance notification",
+        "body": "Dear staff, we will be performing scheduled maintenance on our email servers this weekend. No action is required at this time. We will send a follow-up with details.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "it.helpdesk@company-it.com",
+        "to": "employees@company.com",
+        "subject": "ACTION REQUIRED: Re-authenticate your email",
+        "body": "Due to the server migration, all employees must re-verify their email credentials within 24 hours or lose access. Click here to verify: http://company-it-portal.com/verify. You will need to enter your current username and password. This is mandatory.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_008",
+    "pattern": "credential_harvest",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "security@office365-admin.com",
+        "to": "user@company.com",
+        "subject": "Security alert",
+        "body": "We detected unusual sign-in activity on your Microsoft 365 account from an unrecognized device in another country. We have temporarily secured your account. We will send instructions shortly.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "security@office365-admin.com",
+        "to": "user@company.com",
+        "subject": "Re: Security alert - Verify identity now",
+        "body": "To restore full access to your account, you must verify your identity immediately. Visit https://office365-secure-login.com/verify and sign in with your current credentials. If you do not complete verification within 12 hours, your account will be permanently locked and all data will be deleted.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_009",
+    "pattern": "payroll_diversion",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "mike.johnson@company-hr.com",
+        "to": "payroll@company.com",
+        "subject": "Direct deposit update",
+        "body": "Hi payroll team, I recently switched banks and need to update my direct deposit information before the next pay cycle. What is the process for that?",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "mike.johnson@company-hr.com",
+        "to": "payroll@company.com",
+        "subject": "Re: Direct deposit update",
+        "body": "Thanks for the info. Here are my new details: Bank of America, Routing 026009593, Account 4451029384. Please update this immediately so my next paycheck goes to the right place. I do not have access to the HR portal right now so I cannot do it myself.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_010",
+    "pattern": "payroll_diversion",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "emily.zhang@company.com",
+        "to": "hr@company.com",
+        "subject": "Banking change",
+        "body": "Hello HR, hope you are doing well. I wanted to reach out about changing my direct deposit. I have been meaning to do this for a while. Is there a form I need to fill out?",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "emily.zhang@company.com",
+        "to": "hr@company.com",
+        "subject": "Re: Banking change",
+        "body": "I actually cannot access the portal because I am traveling. Can you just manually update it? New bank: TD Bank, Routing 031101266, Account 8827194530. Please make sure it takes effect before Friday payroll. Thanks so much.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_011",
+    "pattern": "vendor_impersonation",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "billing@cloudhost-services.com",
+        "to": "it@company.com",
+        "subject": "Your subscription renewal",
+        "body": "Dear valued customer, your annual cloud hosting subscription is coming up for renewal on April 1st. Your current plan includes 500GB storage and 10 user licenses. We will send the renewal invoice next week.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "billing@cloudhost-services.com",
+        "to": "it@company.com",
+        "subject": "URGENT: Payment failure - service suspension",
+        "body": "We attempted to charge your card on file but it was declined. Your services will be suspended in 24 hours unless payment is received. Please make an immediate wire transfer of $4,200 to avoid disruption. Bank: Citibank, Account 5529103847, Routing 021000089. Do not reply to this email, process the payment directly.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_012",
+    "pattern": "vendor_impersonation",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "support@enterprise-soft.com",
+        "to": "procurement@company.com",
+        "subject": "License audit",
+        "body": "Hello, as part of our annual compliance process, we are conducting a license audit for all enterprise customers. We will be reviewing your current usage over the next two weeks. No action needed from your end at this time.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "support@enterprise-soft.com",
+        "to": "procurement@company.com",
+        "subject": "Re: License audit - Compliance violation found",
+        "body": "Our audit found that your organization is using 47 licenses but only paying for 25. This is a serious compliance violation. To avoid legal action and a penalty of $89,000, please purchase the additional licenses immediately by wiring $31,500 to our accounts receivable: Account 6638201945, Routing 071921891, Chase Bank.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_013",
+    "pattern": "slow_burn",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "robert.taylor.ceo@megacorp.com",
+        "to": "assistant@company.com",
+        "subject": "Introduction",
+        "body": "Hi, I am reaching out because I was referred to your company by a mutual contact. I would love to explore a potential partnership. Could we schedule a brief call this week?",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "robert.taylor.ceo@megacorp.com",
+        "to": "assistant@company.com",
+        "subject": "Re: Introduction",
+        "body": "Great speaking with you. I think there is real potential here. To move forward, our legal team needs a small good-faith deposit to draft the partnership agreement. This is standard for deals of this size.",
+        "is_phishing": false
+      },
+      {
+        "turn": 3,
+        "from": "robert.taylor.ceo@megacorp.com",
+        "to": "assistant@company.com",
+        "subject": "Re: Re: Introduction",
+        "body": "Here are the wire details for the $15,000 good-faith deposit: Bank of America, Account 7712304958, Routing 026009593. Once received, our attorneys will have the draft agreement to you within 48 hours. Please process today as we have other interested parties.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_014",
+    "pattern": "slow_burn",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "helen.ross@investment-group.com",
+        "to": "cfo@company.com",
+        "subject": "Investment opportunity",
+        "body": "Dear CFO, our firm has been tracking your company growth and we are impressed. We specialize in growth-stage funding for companies like yours. Would you be open to a conversation about potential investment?",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "helen.ross@investment-group.com",
+        "to": "cfo@company.com",
+        "subject": "Re: Investment opportunity",
+        "body": "Thank you for your interest. After our initial review, we believe we can offer a $2M Series A investment at very favorable terms. Our due diligence process is straightforward. I will send over the preliminary term sheet this week.",
+        "is_phishing": false
+      },
+      {
+        "turn": 3,
+        "from": "helen.ross@investment-group.com",
+        "to": "cfo@company.com",
+        "subject": "Re: Re: Investment opportunity",
+        "body": "To proceed with due diligence, we require a refundable processing fee of $8,500. This covers legal review, background checks, and regulatory compliance. Wire to: Morgan Stanley Trust, Account 3318927456, Routing 036001808. This is fully refundable if we do not proceed. Time-sensitive as our Q1 funding window closes Friday.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_015",
+    "pattern": "data_exfiltration",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "auditor@external-compliance.com",
+        "to": "hr@company.com",
+        "subject": "Annual compliance review",
+        "body": "Good morning, we have been engaged to conduct the annual compliance review for your organization. This is a routine process. We will need access to certain personnel records. I will send a detailed request list shortly.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "auditor@external-compliance.com",
+        "to": "hr@company.com",
+        "subject": "Re: Annual compliance review - Document request",
+        "body": "Please provide the following by end of day: full employee roster with names, SSNs, dates of birth, home addresses, and salary information. Also include W-2 forms for all employees from the last two years. Please send as an Excel spreadsheet to this email. This is required for regulatory compliance and failure to provide may result in penalties.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_016",
+    "pattern": "data_exfiltration",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "legal@partner-lawfirm.com",
+        "to": "admin@company.com",
+        "subject": "Pending litigation matter",
+        "body": "Dear Administrator, our firm represents a party in a matter that may involve your organization. This is a preliminary notification. We will be in touch with specific requests as the case develops.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "legal@partner-lawfirm.com",
+        "to": "admin@company.com",
+        "subject": "Re: Pending litigation - Preservation notice",
+        "body": "As part of the litigation hold, we need complete copies of all financial records from 2024-2025, including bank statements, tax filings, client lists, and vendor contracts. Attach all documents to a reply to this email within 48 hours. Failure to comply may result in a court order and additional penalties.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_017",
+    "pattern": "legitimate",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "sarah@realcoworker.com",
+        "to": "manpreet@company.com",
+        "subject": "Team lunch Friday",
+        "body": "Hey Manpreet, a few of us are planning to grab lunch at the new Thai place on Friday. Are you in? We are thinking 12:30.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "sarah@realcoworker.com",
+        "to": "manpreet@company.com",
+        "subject": "Re: Team lunch Friday",
+        "body": "Awesome, glad you can make it. I made a reservation for 6 people at 12:30. The restaurant is on 5th Ave, about a 10-minute walk from the office. See you there!",
+        "is_phishing": false
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_018",
+    "pattern": "legitimate",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "manager@company.com",
+        "to": "team@company.com",
+        "subject": "Q2 planning meeting",
+        "body": "Hi team, I would like to schedule our Q2 planning meeting for next Tuesday at 2pm. Please review the Q1 results document I shared in our shared drive and come prepared with your department updates.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "manager@company.com",
+        "to": "team@company.com",
+        "subject": "Re: Q2 planning meeting",
+        "body": "Quick update - we moved the meeting to Wednesday at 3pm since a few people had conflicts. Same agenda. Also, please submit your Q1 expense reports before the meeting so we can review budgets. Thanks everyone.",
+        "is_phishing": false
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_019",
+    "pattern": "legitimate",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "vendor@realsupplier.com",
+        "to": "purchasing@company.com",
+        "subject": "Order confirmation #ORD-8847",
+        "body": "Thank you for your order. We have received your purchase order for 50 units of the XR-200 component at $45 per unit, totaling $2,250. Estimated delivery is 5-7 business days. Your account representative is Tom at extension 4421.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "vendor@realsupplier.com",
+        "to": "purchasing@company.com",
+        "subject": "Re: Order confirmation #ORD-8847 - Shipping update",
+        "body": "Good news, your order shipped early. FedEx tracking number 7849201384756. Expected delivery is this Thursday. Payment is due NET-30 per our standard terms. Invoice will be mailed to your billing address on file. Let Tom know if you need anything.",
+        "is_phishing": false
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_020",
+    "pattern": "foot_in_door",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "richard.nguyen@ceo-office.com",
+        "to": "admin@company.com",
+        "subject": "Need your help",
+        "body": "Hi, do you have a moment? I have something I need handled before the end of the day.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "richard.nguyen@ceo-office.com",
+        "to": "admin@company.com",
+        "subject": "Re: Need your help",
+        "body": "Thanks for getting back to me. I need you to pick up 4 Apple gift cards at $250 each for employee rewards. Scratch them and email me photos of the codes. I am in back-to-back meetings so please handle this quietly.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_021",
+    "pattern": "wire_transfer",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "accounting@vendor-solutions.com",
+        "to": "ap@company.com",
+        "subject": "Payment status",
+        "body": "Hello, I wanted to follow up on the status of our outstanding invoice from last month. Can you confirm whether it has been processed?",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "accounting@vendor-solutions.com",
+        "to": "ap@company.com",
+        "subject": "URGENT: Bank change before payment",
+        "body": "Before you process that payment, please note our banking information has changed effective immediately. New details: TD Bank, Account 9928374651, Routing 067014822. Please update and send today. Our old account is frozen due to a bank merger.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_022",
+    "pattern": "credential_harvest",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "admin@company-sharepoint.com",
+        "to": "staff@company.com",
+        "subject": "New document shared with you",
+        "body": "A new document has been shared with you on the company SharePoint. You will receive access details shortly.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "admin@company-sharepoint.com",
+        "to": "staff@company.com",
+        "subject": "Re: New document shared - Access required",
+        "body": "To view the shared document, please sign in at https://sharepoint-company-login.com/auth with your company email and password. This link expires in 6 hours. If you do not authenticate, the document will be permanently deleted from your account.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_023",
+    "pattern": "payroll_diversion",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "kevin.patel@company.com",
+        "to": "payroll@company.com",
+        "subject": "Quick payroll question",
+        "body": "Hey payroll team, quick question. When is the cutoff date for making changes to direct deposit for this pay period? Just want to make sure I do not miss the window.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "kevin.patel@company.com",
+        "to": "payroll@company.com",
+        "subject": "Re: Quick payroll question",
+        "body": "Perfect, I am just in time then. Please update my direct deposit to: Scotiabank, Transit 44372, Account 1109283745. I just switched banks last week and do not want my paycheck going to the closed account. I tried the self-service portal but it keeps timing out.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_024",
+    "pattern": "vendor_impersonation",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "renewals@saas-platform.com",
+        "to": "it@company.com",
+        "subject": "Annual license renewal reminder",
+        "body": "Dear IT Administrator, this is a friendly reminder that your annual software license renewal is approaching on April 15th. Your current plan covers 100 seats. No action is needed at this time. We will send the renewal invoice two weeks before expiry.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "renewals@saas-platform.com",
+        "to": "it@company.com",
+        "subject": "CRITICAL: License violation detected",
+        "body": "Our automated audit system detected that your organization is running 156 active seats against a 100-seat license. This is a material breach of your service agreement. To avoid immediate service termination and a compliance penalty of $67,000, please remit $22,400 for the additional seats via wire transfer to: Account 7734928156, Routing 021000021, JPMorgan Chase. Payment must be received within 48 hours.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_025",
+    "pattern": "slow_burn",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "diana.ross@acquisition-partners.com",
+        "to": "founder@company.com",
+        "subject": "Potential partnership inquiry",
+        "body": "Good afternoon, I represent a private equity group that has been following your company with great interest. We believe there could be a mutually beneficial partnership opportunity. Would you be open to a preliminary conversation?",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "diana.ross@acquisition-partners.com",
+        "to": "founder@company.com",
+        "subject": "Re: Potential partnership inquiry",
+        "body": "Thank you for the productive call yesterday. Our team is very enthusiastic about moving forward. As discussed, the next step is a formal due diligence review. I will prepare the preliminary assessment report this week.",
+        "is_phishing": false
+      },
+      {
+        "turn": 3,
+        "from": "diana.ross@acquisition-partners.com",
+        "to": "founder@company.com",
+        "subject": "Re: Re: Potential partnership inquiry",
+        "body": "The due diligence report is ready. To proceed, we need a refundable engagement fee of $12,000 to cover legal costs for drafting the LOI and NDA. Wire to: Goldman Sachs Trust, Account 4456718293, Routing 021000021. This is standard practice and fully refundable should either party withdraw. Our window for Q1 commitments closes this Friday.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_026",
+    "pattern": "data_exfiltration",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "compliance@tax-authority.com",
+        "to": "finance@company.com",
+        "subject": "Annual regulatory filing reminder",
+        "body": "Dear Finance Department, this is a reminder that your annual regulatory compliance filing is due within 60 days. Please ensure all required documentation is prepared. We will send detailed requirements in a follow-up communication.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "compliance@tax-authority.com",
+        "to": "finance@company.com",
+        "subject": "URGENT: Document submission required",
+        "body": "As part of the mandatory compliance review, please submit the following within 24 hours: complete employee payroll records including SINs, all T4 summaries for 2024-2025, corporate banking statements, and client payment records. Email all documents directly to this address in Excel format. Failure to comply within the deadline will result in a $50,000 penalty and potential audit escalation.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_027",
+    "pattern": "legitimate",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "priya@realclient.com",
+        "to": "sales@company.com",
+        "subject": "Product demo request",
+        "body": "Hi there, we came across your product at a recent conference and are interested in learning more. Would it be possible to schedule a 30-minute demo sometime next week? We are a team of about 50 and currently evaluating several vendors.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "priya@realclient.com",
+        "to": "sales@company.com",
+        "subject": "Re: Product demo request",
+        "body": "Thanks for the quick response. Wednesday at 2pm works perfectly for us. Can you send a Zoom or Teams link? I will have our CTO and two team leads on the call as well. Looking forward to it.",
+        "is_phishing": false
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_028",
+    "pattern": "legitimate",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "facilities@company.com",
+        "to": "allstaff@company.com",
+        "subject": "Office maintenance this weekend",
+        "body": "Hi everyone, the building maintenance team will be doing HVAC repairs this Saturday from 8am to 4pm. The office will remain accessible but expect some noise on floors 3 and 4. Please plan accordingly if you were planning to come in.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "facilities@company.com",
+        "to": "allstaff@company.com",
+        "subject": "Re: Office maintenance - Update",
+        "body": "Quick update on the weekend maintenance. The work has been extended to include elevator inspection on Sunday morning from 9am to 12pm. The stairs will be available during that time. Everything should be back to normal by Monday morning. Apologies for any inconvenience.",
+        "is_phishing": false
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_029",
+    "pattern": "wire_transfer",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "legal@partner-firm.com",
+        "to": "cfo@company.com",
+        "subject": "Closing documents ready",
+        "body": "Dear CFO, the closing documents for the property acquisition are finalized. Everything looks good on our end. We will coordinate payment details once you confirm readiness to proceed.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "legal@partner-firm.com",
+        "to": "cfo@company.com",
+        "subject": "Re: Closing documents - Wire instructions",
+        "body": "We are ready to close. Please wire the deposit of $85,000 to our escrow account: Wells Fargo, Account 8837291045, Routing 121000248. This must be received by 5pm tomorrow to secure the closing date. Please do not use the old account details from our previous transaction as we have switched escrow providers.",
+        "is_phishing": true
+      }
+    ]
+  },
+  {
+    "thread_id": "bec_030",
+    "pattern": "credential_harvest",
+    "emails": [
+      {
+        "turn": 1,
+        "from": "noreply@zoom-workspace.com",
+        "to": "user@company.com",
+        "subject": "Your Zoom account update",
+        "body": "We are upgrading our platform to improve security and performance. All users will be migrated to the new system over the next two weeks. No action is required at this time. We will notify you when your account is ready for migration.",
+        "is_phishing": false
+      },
+      {
+        "turn": 2,
+        "from": "noreply@zoom-workspace.com",
+        "to": "user@company.com",
+        "subject": "Action required: Complete your Zoom migration",
+        "body": "Your account is scheduled for migration today. To ensure uninterrupted access to your meetings and recordings, please complete the verification process at https://zoom-secure-migration.com/verify. Enter your current email and password to link your account to the new system. Accounts not verified by midnight tonight will be permanently deactivated and all meeting history will be lost.",
+        "is_phishing": true
+      }
+    ]
+  }
+]
